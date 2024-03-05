@@ -9,7 +9,7 @@ public class MaratonTest {
         Maraton mrton = new Maraton(isimler,sure);
         int birinciindis=mrton.getbirinci();
         int ikinciindis=mrton.getikinci(birinciindis);
-        int ucuncuindis=mrton.getucuncu(birinciindis,ikinciindis);
+        mrton.getucuncu(birinciindis,ikinciindis);
         mrton.getsininflandir();
     }
 }
