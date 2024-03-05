@@ -6,11 +6,10 @@ public class MaratonTest {
 
         int[] sure = {341, 273, 278, 329, 445, 402, 388, 270, 243, 334, 412, 393, 299, 343, 317, 265};
 
-        Maraton maraton = new Maraton(sure,isimler);
-
-        maraton.Ucuncu();
-
-        maraton.ogrencileriSiniflandir();
-
+        Maraton mrton = new Maraton(isimler,sure);
+        int birinciindis=mrton.getbirinci();
+        int ikinciindis=mrton.getikinci(birinciindis);
+        int ucuncuindis=mrton.getucuncu(birinciindis,ikinciindis);
+        mrton.getsininflandir();
     }
 }
