@@ -1,6 +1,6 @@
 public class Maraton {
-    public String[] isimler;
-    public int[] sureler;
+    private String[] isimler;
+    private int[] sureler;
 
     public Maraton(String[] isimler , int[] sureler) {
         this.isimler = isimler;
